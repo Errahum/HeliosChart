@@ -1,0 +1,4 @@
+PyQt5~=5.15.10
+matplotlib~=3.8.2
+pandas~=2.2.1
+setuptools~=70.1.1
