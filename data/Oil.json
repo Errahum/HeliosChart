@@ -1,0 +1,994 @@
+{
+    "columns": [
+        "time",
+        "high",
+        "open_price",
+        "close",
+        "low",
+        "direction",
+        "pattern",
+        "bar"
+    ],
+    "data_types": {
+        "time": "object",
+        "high": "float64",
+        "open_price": "float64",
+        "close": "float64",
+        "low": "float64",
+        "direction": "object",
+        "pattern": "object",
+        "bar": "int64"
+    },
+    "data": [
+        {
+            "time": "2023-09-17 18:00:00",
+            "high": 91.097,
+            "open_price": 91.097,
+            "close": 90.946,
+            "low": 90.931,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 0
+        },
+        {
+            "time": "2023-09-17 18:01:00",
+            "high": 90.946,
+            "open_price": 90.946,
+            "close": 90.926,
+            "low": 90.901,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 1
+        },
+        {
+            "time": "2023-09-17 18:02:00",
+            "high": 90.956,
+            "open_price": 90.926,
+            "close": 90.956,
+            "low": 90.906,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 2
+        },
+        {
+            "time": "2023-09-17 18:03:00",
+            "high": 90.976,
+            "open_price": 90.956,
+            "close": 90.976,
+            "low": 90.921,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 3
+        },
+        {
+            "time": "2023-09-17 18:04:00",
+            "high": 90.991,
+            "open_price": 90.976,
+            "close": 90.931,
+            "low": 90.931,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 4
+        },
+        {
+            "time": "2023-09-17 18:05:00",
+            "high": 90.946,
+            "open_price": 90.931,
+            "close": 90.921,
+            "low": 90.911,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 5
+        },
+        {
+            "time": "2023-09-17 18:06:00",
+            "high": 90.946,
+            "open_price": 90.921,
+            "close": 90.926,
+            "low": 90.921,
+            "direction": "Long",
+            "pattern": "Shooting_Star",
+            "bar": 6
+        },
+        {
+            "time": "2023-09-17 18:07:00",
+            "high": 90.926,
+            "open_price": 90.926,
+            "close": 90.901,
+            "low": 90.886,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 7
+        },
+        {
+            "time": "2023-09-17 18:08:00",
+            "high": 90.911,
+            "open_price": 90.901,
+            "close": 90.906,
+            "low": 90.901,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 8
+        },
+        {
+            "time": "2023-09-17 18:09:00",
+            "high": 90.951,
+            "open_price": 90.906,
+            "close": 90.951,
+            "low": 90.906,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 9
+        },
+        {
+            "time": "2023-09-17 18:10:00",
+            "high": 90.951,
+            "open_price": 90.951,
+            "close": 90.881,
+            "low": 90.871,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 10
+        },
+        {
+            "time": "2023-09-17 18:11:00",
+            "high": 90.906,
+            "open_price": 90.881,
+            "close": 90.906,
+            "low": 90.881,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 11
+        },
+        {
+            "time": "2023-09-17 18:12:00",
+            "high": 90.911,
+            "open_price": 90.906,
+            "close": 90.896,
+            "low": 90.891,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 12
+        },
+        {
+            "time": "2023-09-17 18:13:00",
+            "high": 90.896,
+            "open_price": 90.896,
+            "close": 90.85,
+            "low": 90.85,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 13
+        },
+        {
+            "time": "2023-09-17 18:14:00",
+            "high": 90.86,
+            "open_price": 90.85,
+            "close": 90.835,
+            "low": 90.83,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 14
+        },
+        {
+            "time": "2023-09-17 18:15:00",
+            "high": 90.835,
+            "open_price": 90.835,
+            "close": 90.81,
+            "low": 90.805,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 15
+        },
+        {
+            "time": "2023-09-17 18:16:00",
+            "high": 90.825,
+            "open_price": 90.81,
+            "close": 90.8,
+            "low": 90.79,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 16
+        },
+        {
+            "time": "2023-09-17 18:17:00",
+            "high": 90.8,
+            "open_price": 90.8,
+            "close": 90.77,
+            "low": 90.77,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 17
+        },
+        {
+            "time": "2023-09-17 18:18:00",
+            "high": 90.805,
+            "open_price": 90.77,
+            "close": 90.775,
+            "low": 90.76,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 18
+        },
+        {
+            "time": "2023-09-17 18:19:00",
+            "high": 90.775,
+            "open_price": 90.775,
+            "close": 90.775,
+            "low": 90.77,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 19
+        },
+        {
+            "time": "2023-09-17 18:20:00",
+            "high": 90.78,
+            "open_price": 90.775,
+            "close": 90.765,
+            "low": 90.75,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 20
+        },
+        {
+            "time": "2023-09-17 18:21:00",
+            "high": 90.775,
+            "open_price": 90.765,
+            "close": 90.775,
+            "low": 90.75,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 21
+        },
+        {
+            "time": "2023-09-17 18:22:00",
+            "high": 90.82,
+            "open_price": 90.775,
+            "close": 90.81,
+            "low": 90.77,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 22
+        },
+        {
+            "time": "2023-09-17 18:23:00",
+            "high": 90.81,
+            "open_price": 90.81,
+            "close": 90.795,
+            "low": 90.79,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 23
+        },
+        {
+            "time": "2023-09-17 18:24:00",
+            "high": 90.8,
+            "open_price": 90.795,
+            "close": 90.77,
+            "low": 90.755,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 24
+        },
+        {
+            "time": "2023-09-17 18:25:00",
+            "high": 90.775,
+            "open_price": 90.77,
+            "close": 90.77,
+            "low": 90.76,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 25
+        },
+        {
+            "time": "2023-09-17 18:26:00",
+            "high": 90.78,
+            "open_price": 90.77,
+            "close": 90.78,
+            "low": 90.77,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 26
+        },
+        {
+            "time": "2023-09-17 18:27:00",
+            "high": 90.805,
+            "open_price": 90.78,
+            "close": 90.805,
+            "low": 90.78,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 27
+        },
+        {
+            "time": "2023-09-17 18:28:00",
+            "high": 90.825,
+            "open_price": 90.805,
+            "close": 90.81,
+            "low": 90.805,
+            "direction": "Long",
+            "pattern": "Shooting_Star",
+            "bar": 28
+        },
+        {
+            "time": "2023-09-17 18:29:00",
+            "high": 90.81,
+            "open_price": 90.81,
+            "close": 90.81,
+            "low": 90.805,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 29
+        },
+        {
+            "time": "2023-09-17 18:30:00",
+            "high": 90.82,
+            "open_price": 90.81,
+            "close": 90.82,
+            "low": 90.81,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 30
+        },
+        {
+            "time": "2023-09-17 18:31:00",
+            "high": 90.84,
+            "open_price": 90.82,
+            "close": 90.83,
+            "low": 90.81,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 31
+        },
+        {
+            "time": "2023-09-17 18:32:00",
+            "high": 90.835,
+            "open_price": 90.83,
+            "close": 90.835,
+            "low": 90.83,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 32
+        },
+        {
+            "time": "2023-09-17 18:33:00",
+            "high": 90.84,
+            "open_price": 90.835,
+            "close": 90.84,
+            "low": 90.83,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 33
+        },
+        {
+            "time": "2023-09-17 18:34:00",
+            "high": 90.84,
+            "open_price": 90.84,
+            "close": 90.82,
+            "low": 90.82,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 34
+        },
+        {
+            "time": "2023-09-17 18:35:00",
+            "high": 90.82,
+            "open_price": 90.82,
+            "close": 90.8,
+            "low": 90.79,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 35
+        },
+        {
+            "time": "2023-09-17 18:36:00",
+            "high": 90.805,
+            "open_price": 90.8,
+            "close": 90.8,
+            "low": 90.79,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 36
+        },
+        {
+            "time": "2023-09-17 18:37:00",
+            "high": 90.8,
+            "open_price": 90.8,
+            "close": 90.79,
+            "low": 90.79,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 37
+        },
+        {
+            "time": "2023-09-17 18:38:00",
+            "high": 90.79,
+            "open_price": 90.79,
+            "close": 90.769,
+            "low": 90.759,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 38
+        },
+        {
+            "time": "2023-09-17 18:39:00",
+            "high": 90.774,
+            "open_price": 90.769,
+            "close": 90.764,
+            "low": 90.759,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 39
+        },
+        {
+            "time": "2023-09-17 18:40:00",
+            "high": 90.769,
+            "open_price": 90.764,
+            "close": 90.749,
+            "low": 90.749,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 40
+        },
+        {
+            "time": "2023-09-17 18:41:00",
+            "high": 90.754,
+            "open_price": 90.749,
+            "close": 90.749,
+            "low": 90.749,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 41
+        },
+        {
+            "time": "2023-09-17 18:42:00",
+            "high": 90.784,
+            "open_price": 90.749,
+            "close": 90.779,
+            "low": 90.739,
+            "direction": "Long",
+            "pattern": "Engulfing",
+            "bar": 42
+        },
+        {
+            "time": "2023-09-17 18:43:00",
+            "high": 90.8,
+            "open_price": 90.779,
+            "close": 90.784,
+            "low": 90.769,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 43
+        },
+        {
+            "time": "2023-09-17 18:44:00",
+            "high": 90.789,
+            "open_price": 90.784,
+            "close": 90.779,
+            "low": 90.774,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 44
+        },
+        {
+            "time": "2023-09-17 18:45:00",
+            "high": 90.779,
+            "open_price": 90.779,
+            "close": 90.769,
+            "low": 90.769,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 45
+        },
+        {
+            "time": "2023-09-17 18:46:00",
+            "high": 90.769,
+            "open_price": 90.769,
+            "close": 90.769,
+            "low": 90.764,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 46
+        },
+        {
+            "time": "2023-09-17 18:47:00",
+            "high": 90.784,
+            "open_price": 90.769,
+            "close": 90.784,
+            "low": 90.759,
+            "direction": "Long",
+            "pattern": "Engulfing",
+            "bar": 47
+        },
+        {
+            "time": "2023-09-17 18:48:00",
+            "high": 90.784,
+            "open_price": 90.784,
+            "close": 90.779,
+            "low": 90.779,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 48
+        },
+        {
+            "time": "2023-09-17 18:50:00",
+            "high": 90.789,
+            "open_price": 90.779,
+            "close": 90.789,
+            "low": 90.779,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 49
+        },
+        {
+            "time": "2023-09-17 18:51:00",
+            "high": 90.789,
+            "open_price": 90.789,
+            "close": 90.779,
+            "low": 90.779,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 50
+        },
+        {
+            "time": "2023-09-17 18:52:00",
+            "high": 90.779,
+            "open_price": 90.779,
+            "close": 90.759,
+            "low": 90.759,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 51
+        },
+        {
+            "time": "2023-09-17 18:53:00",
+            "high": 90.759,
+            "open_price": 90.759,
+            "close": 90.759,
+            "low": 90.749,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 52
+        },
+        {
+            "time": "2023-09-17 18:54:00",
+            "high": 90.769,
+            "open_price": 90.759,
+            "close": 90.769,
+            "low": 90.759,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 53
+        },
+        {
+            "time": "2023-09-17 18:55:00",
+            "high": 90.774,
+            "open_price": 90.769,
+            "close": 90.769,
+            "low": 90.764,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 54
+        },
+        {
+            "time": "2023-09-17 18:56:00",
+            "high": 90.769,
+            "open_price": 90.769,
+            "close": 90.769,
+            "low": 90.764,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 55
+        },
+        {
+            "time": "2023-09-17 18:58:00",
+            "high": 90.779,
+            "open_price": 90.769,
+            "close": 90.774,
+            "low": 90.769,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 56
+        },
+        {
+            "time": "2023-09-17 18:59:00",
+            "high": 90.774,
+            "open_price": 90.774,
+            "close": 90.769,
+            "low": 90.769,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 57
+        },
+        {
+            "time": "2023-09-17 19:00:00",
+            "high": 90.769,
+            "open_price": 90.769,
+            "close": 90.759,
+            "low": 90.759,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 58
+        },
+        {
+            "time": "2023-09-17 19:01:00",
+            "high": 90.759,
+            "open_price": 90.759,
+            "close": 90.754,
+            "low": 90.749,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 59
+        },
+        {
+            "time": "2023-09-17 19:02:00",
+            "high": 90.759,
+            "open_price": 90.754,
+            "close": 90.759,
+            "low": 90.754,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 60
+        },
+        {
+            "time": "2023-09-17 19:03:00",
+            "high": 90.769,
+            "open_price": 90.759,
+            "close": 90.769,
+            "low": 90.759,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 61
+        },
+        {
+            "time": "2023-09-17 19:05:00",
+            "high": 90.779,
+            "open_price": 90.769,
+            "close": 90.774,
+            "low": 90.769,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 62
+        },
+        {
+            "time": "2023-09-17 19:06:00",
+            "high": 90.774,
+            "open_price": 90.774,
+            "close": 90.769,
+            "low": 90.769,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 63
+        },
+        {
+            "time": "2023-09-17 19:08:00",
+            "high": 90.784,
+            "open_price": 90.769,
+            "close": 90.769,
+            "low": 90.769,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 64
+        },
+        {
+            "time": "2023-09-17 19:09:00",
+            "high": 90.769,
+            "open_price": 90.769,
+            "close": 90.759,
+            "low": 90.759,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 65
+        },
+        {
+            "time": "2023-09-17 19:10:00",
+            "high": 90.764,
+            "open_price": 90.759,
+            "close": 90.759,
+            "low": 90.754,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 66
+        },
+        {
+            "time": "2023-09-17 19:11:00",
+            "high": 90.759,
+            "open_price": 90.759,
+            "close": 90.759,
+            "low": 90.749,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 67
+        },
+        {
+            "time": "2023-09-17 19:12:00",
+            "high": 90.764,
+            "open_price": 90.759,
+            "close": 90.764,
+            "low": 90.749,
+            "direction": "Long",
+            "pattern": "Hammer",
+            "bar": 68
+        },
+        {
+            "time": "2023-09-17 19:13:00",
+            "high": 90.769,
+            "open_price": 90.764,
+            "close": 90.759,
+            "low": 90.759,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 69
+        },
+        {
+            "time": "2023-09-17 19:14:00",
+            "high": 90.759,
+            "open_price": 90.759,
+            "close": 90.754,
+            "low": 90.754,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 70
+        },
+        {
+            "time": "2023-09-17 19:15:00",
+            "high": 90.754,
+            "open_price": 90.754,
+            "close": 90.739,
+            "low": 90.739,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 71
+        },
+        {
+            "time": "2023-09-17 19:17:00",
+            "high": 90.739,
+            "open_price": 90.739,
+            "close": 90.698,
+            "low": 90.693,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 72
+        },
+        {
+            "time": "2023-09-17 19:18:00",
+            "high": 90.708,
+            "open_price": 90.698,
+            "close": 90.708,
+            "low": 90.698,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 73
+        },
+        {
+            "time": "2023-09-17 19:19:00",
+            "high": 90.708,
+            "open_price": 90.708,
+            "close": 90.703,
+            "low": 90.703,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 74
+        },
+        {
+            "time": "2023-09-17 19:20:00",
+            "high": 90.729,
+            "open_price": 90.703,
+            "close": 90.719,
+            "low": 90.703,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 75
+        },
+        {
+            "time": "2023-09-17 19:22:00",
+            "high": 90.729,
+            "open_price": 90.719,
+            "close": 90.729,
+            "low": 90.713,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 76
+        },
+        {
+            "time": "2023-09-17 19:23:00",
+            "high": 90.734,
+            "open_price": 90.729,
+            "close": 90.729,
+            "low": 90.724,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 77
+        },
+        {
+            "time": "2023-09-17 19:24:00",
+            "high": 90.764,
+            "open_price": 90.729,
+            "close": 90.764,
+            "low": 90.729,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 78
+        },
+        {
+            "time": "2023-09-17 19:25:00",
+            "high": 90.764,
+            "open_price": 90.764,
+            "close": 90.759,
+            "low": 90.749,
+            "direction": "Short",
+            "pattern": "Hammer",
+            "bar": 79
+        },
+        {
+            "time": "2023-09-17 19:26:00",
+            "high": 90.769,
+            "open_price": 90.759,
+            "close": 90.759,
+            "low": 90.759,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 80
+        },
+        {
+            "time": "2023-09-17 19:28:00",
+            "high": 90.759,
+            "open_price": 90.759,
+            "close": 90.749,
+            "low": 90.749,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 81
+        },
+        {
+            "time": "2023-09-17 19:29:00",
+            "high": 90.764,
+            "open_price": 90.749,
+            "close": 90.749,
+            "low": 90.733,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 82
+        },
+        {
+            "time": "2023-09-17 19:30:00",
+            "high": 90.759,
+            "open_price": 90.749,
+            "close": 90.749,
+            "low": 90.744,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 83
+        },
+        {
+            "time": "2023-09-17 19:31:00",
+            "high": 90.759,
+            "open_price": 90.749,
+            "close": 90.754,
+            "low": 90.733,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 84
+        },
+        {
+            "time": "2023-09-17 19:32:00",
+            "high": 90.754,
+            "open_price": 90.754,
+            "close": 90.744,
+            "low": 90.738,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 85
+        },
+        {
+            "time": "2023-09-17 19:33:00",
+            "high": 90.749,
+            "open_price": 90.744,
+            "close": 90.749,
+            "low": 90.744,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 86
+        },
+        {
+            "time": "2023-09-17 19:35:00",
+            "high": 90.749,
+            "open_price": 90.749,
+            "close": 90.749,
+            "low": 90.738,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 87
+        },
+        {
+            "time": "2023-09-17 19:36:00",
+            "high": 90.759,
+            "open_price": 90.749,
+            "close": 90.749,
+            "low": 90.749,
+            "direction": "Short",
+            "pattern": "Doji",
+            "bar": 88
+        },
+        {
+            "time": "2023-09-17 19:37:00",
+            "high": 90.789,
+            "open_price": 90.749,
+            "close": 90.784,
+            "low": 90.749,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 89
+        },
+        {
+            "time": "2023-09-17 19:38:00",
+            "high": 90.784,
+            "open_price": 90.784,
+            "close": 90.769,
+            "low": 90.769,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 90
+        },
+        {
+            "time": "2023-09-17 19:42:00",
+            "high": 90.774,
+            "open_price": 90.769,
+            "close": 90.774,
+            "low": 90.769,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 91
+        },
+        {
+            "time": "2023-09-17 19:43:00",
+            "high": 90.784,
+            "open_price": 90.774,
+            "close": 90.784,
+            "low": 90.774,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 92
+        },
+        {
+            "time": "2023-09-17 19:44:00",
+            "high": 90.784,
+            "open_price": 90.784,
+            "close": 90.774,
+            "low": 90.769,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 93
+        },
+        {
+            "time": "2023-09-17 19:45:00",
+            "high": 90.779,
+            "open_price": 90.774,
+            "close": 90.779,
+            "low": 90.774,
+            "direction": "Long",
+            "pattern": "",
+            "bar": 94
+        },
+        {
+            "time": "2023-09-17 19:46:00",
+            "high": 90.779,
+            "open_price": 90.779,
+            "close": 90.753,
+            "low": 90.748,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 95
+        },
+        {
+            "time": "2023-09-17 19:47:00",
+            "high": 90.753,
+            "open_price": 90.753,
+            "close": 90.748,
+            "low": 90.748,
+            "direction": "Short",
+            "pattern": "",
+            "bar": 96
+        }
+    ]
+}
