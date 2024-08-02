@@ -1,4 +1,4 @@
-# HeliosChart
+# HeliosChart (created in autumn 2023)
 
 HeliosChart is a comprehensive Python application designed for visualizing financial data through a highly interactive and user-friendly interface built with PyQt and Matplotlib. The application offers a range of functionalities including dynamic data loading, candlestick chart visualization, and identification of Doji patterns.
 
