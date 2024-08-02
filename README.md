@@ -4,7 +4,7 @@ HeliosChart is a comprehensive Python application designed for visualizing finan
 
 The chart uses a specific type of json data that is personalized by john. [John Doe](https://github.com/johndoe1117)
 
-[![Alt text](https://raw.githubusercontent.com/Errahum/HeliosChart/main/helioschart.gif?token=GHSAT0AAAAAACVDUYO6DRDNL6GXEM4VFOBEZU5L3VQ)]()
+[![Alt text](https://github.com/Errahum/Available-soon/blob/main/helioschart.gif)]()
 
 ## Table of Contents
 
