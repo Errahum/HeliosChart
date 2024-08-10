@@ -2,7 +2,7 @@
 
 HeliosChart is a comprehensive Python application designed for visualizing financial data through a highly interactive and user-friendly interface built with PyQt and Matplotlib. The application offers a range of functionalities including dynamic data loading, candlestick chart visualization, and identification of Doji patterns.
 
-The chart uses a specific type of json data that is personalized by kefadream. [kefadream](https://github.com/johndoe1117)
+The chart uses a specific type of json data that is personalized by kefadream. [kefadream](https://github.com/kefadream)
 
 [![Alt text](https://github.com/Errahum/Available-soon/blob/main/helioschart.gif)]()
 
